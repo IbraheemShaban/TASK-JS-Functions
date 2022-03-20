@@ -42,6 +42,9 @@ function oddsSmallerThan(n) {
   if (n == 0) {
     return 0;
   }
+  if (n % 2 == 0) {
+    n -= n;
+  }
   return (n - 1) / 2;
 }
 
