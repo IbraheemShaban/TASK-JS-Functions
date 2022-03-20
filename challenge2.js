@@ -8,7 +8,7 @@
  */
 function greet(name) {
   // Your code here
-  console.log(name);
+  console.log(`Hello ${name}`);
 }
 
 /**
