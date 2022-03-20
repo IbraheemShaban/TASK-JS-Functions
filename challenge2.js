@@ -39,6 +39,9 @@ function isOdd(n) {
  */
 function oddsSmallerThan(n) {
   // Your code here
+  if (n == 0) {
+    return 0;
+  }
   return (n - 1) / 2;
 }
 
